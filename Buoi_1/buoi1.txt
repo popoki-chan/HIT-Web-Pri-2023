@@ -1,0 +1,18 @@
+blank: mở link trong tab web mới
+alt trong img: khi ảnh bị lỗi sẽ hiện tên content 
+<table></table>: bảng 
+thead: tiêu đề của cột
+tbody: 
+tfoot: ko cần lắm
+tr: hàng
+th: ô
+td: ô
+danh sách
+li: list item
+ul: dấu chấm
+
+ol: có thứ tự
+
+video
+autoplay
+
