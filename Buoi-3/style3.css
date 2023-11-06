@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    margin: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-header {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.ct-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.text-rt {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-nd {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tag {
+    display: flex;
+}
+
+.text-tag {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+  margin: 15px;
+}
+
+.ct-body {
+    margin-top: 150px;
+    
+}
+.introduce1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+
+}
+
+.information {
+    margin: 30px;
+}
+.ct-infor1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.ct-infor{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: block;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-right {
+    display: flex;
+
+}
+
+.footer-right .icon {
+    padding: 20px;
+}
+
+
+
