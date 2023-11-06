@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tính tiền đi karaoke</title>
+    <script language="Javascript">
+        function tinh(){
+            var a = parseInt(window.document.nhap.giovao.value);
+            var b =  parseInt(window.document.nhap.giora.value);
+            var gio = giora - giovao;
+            var giatien;
+            if ( giovao < 18 && giora < 18) giatien = gio * 40;
+            else if ( giovao >= 18 && giora >= 18 ) giatien = gio * 60;
+            else if(giovao < 18 && giora >= 18) giatien = (18 - giovao) * 40 + (giora - 18) * 60;
+            window.document.nhap.tongtien.value=giatien;
+        }
+    </script>
+
+</head>
+<body>
+    <form >
+        <table border="1">
+            <tr>
+                <td colspan="2" align="center">Tính tiền karaoke</td>
+            </tr>
+            <tr>
+                <td> Giờ vào: </td>
+                <td><input type="text"  name="giovao"> </td>
+            </tr>
+            <tr>
+                <td> Giờ ra : </td>
+                <td><input type="text"  name="giora"> </td>
+            </tr>
+            <tr>
+                <td> tổng tiền: </td>
+                <td><input type="text" name="tongtien" > </td>
+            </tr>
+            <tr>
+                <td colspan="2"align="center">
+                    <input type="reset" value="xóa">
+                    <input type="button"  value="tổng" onclick="tinh();"  >
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

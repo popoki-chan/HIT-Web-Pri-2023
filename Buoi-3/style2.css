@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    margin: 10%;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: #ffce9e;
+    width: 50px;
+    height: 50px;
+}
+
+.box2{
+    background-color: #d18b47;
+    width: 50px;
+    height: 50px;
+}

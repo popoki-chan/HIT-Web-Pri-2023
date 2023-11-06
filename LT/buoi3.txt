@@ -1,0 +1,35 @@
+- tạo nhiều class ko lien quan chung style
+.a,
+.b,
+.c {
+    ....
+}
+
+- w3 school
+
+-input
+type = "checkbox"
+type = "password"
+type = "text"
+
+a:active
+a:visted : đã bấm rồi
+
+.name::after
+.name::before
+.name:hover::after trỏ đến hover css 
+
+*thứ tự ưu tiên
+!important      +...
+inline          1000
+id              100
+class           10
+tag             1
+
+display flex;
+flex-direction: 
+
+order 
+
+
+

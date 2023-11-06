@@ -1,0 +1,49 @@
+có 3 cách sử dụng html
+- inline: viết trực tiếp vào html
+- intenal: trong thẻ <style> </style>
+- external: tạo 1 file có đuôi css, nhúng vào html 
+
+1rem = 10px;
+font-variant: chỉnh sửa chữ hoa chữ thường
+max-lines: giới hạn số dòng text với css
+border-radius: x% x% x% x%/x% x% x% x% (fancy-border-radius)
+
+thẻ: inline- block- meta- self-closing
+- block: chiếm hết 1 dòng và đẩy thẻ tiếp theo
+- inline: chỉ chiểm 1 phần kích thước
+* chuyển thẻ block sang inline: display: inline-block;
+
+backgroud
+biến trong css:
+:root {
+    --primary-color: ...;
+    --primary-font-size: ...;
+    ...
+}
+- chuyền biến: color: var...
+
+@ font-face {
+    src: url("........");
+    font-style:  
+    font-family: 
+    font-weight:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
