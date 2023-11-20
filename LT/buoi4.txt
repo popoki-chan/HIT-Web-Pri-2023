@@ -1,0 +1,55 @@
+emmet:
+(.box+.box.box-even {stt$})*4
+div.tenclass
+
+căn giữa:
+transform: translate(<-50%, -50%);
+
+Tạo triangle
+border-right-color: transparents;
+
+animation
+// định nghĩa hoạt ảnh
+@keyframes example {
+  from {
+    background-color: pink;
+  }
+  to {
+    background-color: purple;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: crimson;
+  }
+  25% {
+    background-color: lightsalmon;
+  }
+  50% {
+    background-color: pink;
+  }
+  100% {
+    background-color: indigo;
+  }
+}
+
+animation-name: Tên animation
+animation-duration: thời gian của animation 1 chu kỳ
+animation-timing-function: tốc độ animation
+animation-delay: thời gian delay của animation
+animation-iteration-count: số lần thực hiện animation
+aniamtion-direction: hướng của animation
+animation-fill-mode: thay đổi trạng thái của phần tử trước khi bắt đầu sau khi kết thúc Animation.
+ 
+overflow: hidden;
+// ẩn 
+
+web: css gardient background
+
+grid-area
+
+reposive
+@media not|only mediatype and (expressions) {
+  CSS-Code
+}
