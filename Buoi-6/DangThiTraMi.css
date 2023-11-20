@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --green: #00CC33;
+    --gray: #808080;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop {
+    display: flex;
+    flex-direction: row;
+}
+
+.box::after {
+    width: 50px;
+    height: 50px;
+    background-color: var(--green) ;
+    display: block;
+    content: "";
+}
+.shop i {
+    
+    background-color:rgb(255, 85, 144);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.txt-shop {
+    margin: 10px;
+}
+
+.txt:first-child {
+    font-weight: bold;
+}
+
+.txt:first-child:hover {
+    color: var(--green);
+}
+
+.txt:nth-child(2) {
+    color: var(--gray);
+}
+
+.shop {
+    margin-right: 30px;
+}
+
+shop:nth-child(2) {
+    margin-left: 10px;
+}
+.box-search {
+    width: 25vw;
+    height: 50px;
+    padding-left: 10px;
+    color: var(--gray);
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    background-color: var(--green) ;
+}
+
+.menu {
+    
+    background-color: var(--green) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-menu {
+    display: flex;
+    justify-content: flex-start;
+    
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.text {
+    align-items: center;
+    margin: 20px;
+}
+
+.text::before {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.inData {
+    margin: 10px;
+    width: 250px;
+    height: 45px;
+    padding-left: 10px;
+    color: var(--gray);
+}
+.picture img {
+    width: 100%;
+    height: 200px;
+}
+.text-menu:nth-child(3):hover {
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.main img {
+    width: 15vw;
+    margin: 5px;
+    
+}
+
+.txt-veg {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
